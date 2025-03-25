@@ -61,7 +61,7 @@ Composite.add(world, [
         angle: Math.PI * 0.06, 
         render: { fillStyle: '#060a19' } 
     }),
-    Bodies.rectangle(300, 430, 40, 40, { friction: 0 })
+    Bodies.circle(300, 430, 40, { friction: 0 })
 ]);
 
 // Add mouse control
